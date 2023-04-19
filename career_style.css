@@ -459,7 +459,7 @@ button:hover {
     border-bottom: 0.5px solid #40A2D5;
     font-size: 1.5rem;
     color: #78788c;
-    z-index: 50;
+    z-index: 1;
     text-align: center;
 }
 .jb_desc_absolute p{
