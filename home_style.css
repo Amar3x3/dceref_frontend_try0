@@ -1,11 +1,11 @@
 html{
     scroll-behavior: smooth;
 }
-.home0{
+body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
-
 /*-----------------------------------------------------------home start-----------------------------------------------*/
 #home{
     margin-top: 6.5rem;
@@ -483,22 +483,22 @@ color: #313131;
 }
 .reveal-from-right{
     position: relative;
-    transform: translateX(130px);
+    transform: translateX(12vw);
     opacity: 0;
-    transition: all 1.5s ease;
+    transition: all 1.7s ease;
 }
 .reveal-from-right.active-right{
-    transform: translateY(0px);
+    transform: translateY(0vw);
     opacity: 1;
 }
 .reveal-from-left{
     position: relative;
-    transform: translateX(-130px);
+    transform: translateX(-12px);
     opacity: 0;
-    transition: all 1.5s ease;
+    transition: all 1.7s ease;
 }
 .reveal-from-left.active-left{
-    transform: translateX(0px);
+    transform: translateX(0vw);
     opacity: 1;
 }
 /*-------------------------------------------------animation end-----------------------------------------------*/
@@ -751,5 +751,8 @@ color: #313131;
     }
     .title{
         line-height: 1.2;
+    }
+    .content1 .text{
+        font-size: 0.9rem;
     }
 }

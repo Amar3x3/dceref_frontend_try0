@@ -217,7 +217,7 @@ nav.open .links {
         width: 60%;
         height: 100vh;
         top: 0;
-        right: 20vw;
+        right: 0;
         background-color: #081340;
         display: flex;
         align-items: center;
