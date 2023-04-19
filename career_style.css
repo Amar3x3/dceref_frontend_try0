@@ -423,22 +423,22 @@ button:hover {
 }
 .reveal-from-right{
     position: relative;
-    transform: translateX(130px);
+    transform: translateX(12vw);
     opacity: 0;
     transition: all 1.5s ease;
 }
 .reveal-from-right.active-right{
-    transform: translateY(0px);
+    transform: translateY(0vw);
     opacity: 1;
 }
 .reveal-from-left{
     position: relative;
-    transform: translateX(-130px);
+    transform: translateX(-12vw);
     opacity: 0;
     transition: all 1.5s ease;
 }
 .reveal-from-left.active-left{
-    transform: translateX(0px);
+    transform: translateX(0vw);
     opacity: 1;
 }
 
