@@ -119,6 +119,7 @@ html {
     box-shadow: 7px 4px 73px 0px black;
     margin-bottom: 5rem;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .opening p {
@@ -316,7 +317,8 @@ html {
     max-width: calc(100vw - 40px);
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    position: relative
+    position: relative;
+    overflow-x: hidden;
 }
 
 .form2 h2 {
@@ -423,7 +425,7 @@ button:hover {
 }
 .reveal-from-right{
     position: relative;
-    transform: translateX(12vw);
+    transform: translateX(130px);
     opacity: 0;
     transition: all 1.5s ease;
 }
@@ -433,7 +435,7 @@ button:hover {
 }
 .reveal-from-left{
     position: relative;
-    transform: translateX(-12vw);
+    transform: translateX(-130px);
     opacity: 0;
     transition: all 1.5s ease;
 }
@@ -461,6 +463,7 @@ button:hover {
     color: #78788c;
     z-index: 1;
     text-align: center;
+    overflow-x: hidden;
 }
 .jb_desc_absolute p{
     text-align: center;

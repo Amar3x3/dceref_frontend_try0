@@ -7,6 +7,9 @@ body{
     overflow-x: hidden;
 }
 /*-----------------------------------------------------------home start-----------------------------------------------*/
+/* .overflow-hidden{
+    overflow-x: hidden;
+} */
 #home{
     margin-top: 6.5rem;
 }
@@ -483,22 +486,22 @@ color: #313131;
 }
 .reveal-from-right{
     position: relative;
-    transform: translateX(12vw);
+    transform: translateX(130px);
     opacity: 0;
     transition: all 1.7s ease;
 }
 .reveal-from-right.active-right{
-    transform: translateY(0vw);
+    transform: translateY(0px);
     opacity: 1;
 }
 .reveal-from-left{
     position: relative;
-    transform: translateX(-12px);
+    transform: translateX(-130px);
     opacity: 0;
     transition: all 1.7s ease;
 }
 .reveal-from-left.active-left{
-    transform: translateX(0vw);
+    transform: translateX(0px);
     opacity: 1;
 }
 /*-------------------------------------------------animation end-----------------------------------------------*/
@@ -522,6 +525,7 @@ color: #313131;
 #company-msg{
     width: 98.5vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .content1 {
@@ -654,6 +658,7 @@ color: #313131;
 @media (max-width:925px){
     .mega-grid-2{
         height: fit-content;
+        overflow-x: hidden;
     }
     .col1{
         height: fit-content;
@@ -687,6 +692,10 @@ color: #313131;
       .home-mega-grid-2{
         height: fit-content;
       }
+      .abt-overflow-hid .home-mega-grid-2{
+        overflow-x: hidden;
+      }
+      
       .home-title-col1{
         width: 100%;
       }
@@ -754,5 +763,8 @@ color: #313131;
     }
     .content1 .text{
         font-size: 0.9rem;
+    }
+    .home-title{
+        font-size: 47px;
     }
 }
