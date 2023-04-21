@@ -304,11 +304,13 @@ html {
     background: linear-gradient(135deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 }
 
-
+.form{
+    overflow-x: hidden;
+}
 
 .form1{
     width: 340px;
-    height: 505px;
+    height: 515px;
     background: #e6e6e6;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
@@ -318,7 +320,6 @@ html {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    overflow-x: hidden;
 }
 
 .form2 h2 {
@@ -504,7 +505,7 @@ button:hover {
 
     .form_title {
         font-size: 1rem;
-        line-height: 0.85;
+        line-height: 1.45;
     }
 
     .opening_title {
