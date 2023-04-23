@@ -6,6 +6,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 #slider {
     overflow: hidden;
@@ -162,6 +165,7 @@ color: #40A2D5;
     position: relative;
     transition: 0.3s;
     box-shadow:6px 14px 29px 12px rgba(0,0,0,.2);
+    cursor: pointer;
   }
   .card::before{
     content: attr(data-card);
@@ -186,7 +190,7 @@ color: #40A2D5;
   }
   .card:hover{
     /* transform: translateY(-15px); */
-    transform: scale(1.15);
+    /* transform: scale(1.15); */
     background-color: #d4fdfd;
     
   }
@@ -199,6 +203,7 @@ color: #40A2D5;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+    overflow-y: hidden;
   }
   .card-wrap{
     margin: 1.7rem 0.8rem;
@@ -326,6 +331,9 @@ button:hover {
 .msg-from-client{
     width: 80%;
     height: 30%;
+}
+.map iframe{
+    border-radius: 110px 0 110px 0;
 }
   
   
