@@ -113,7 +113,7 @@ $(document).ready(function () {
 });
 
 const ctrs =document.querySelectorAll('.ctr')
-const speed =200
+const speed =9000;
 
 ctrs.forEach(ctr =>{
     const update_count = () =>{
@@ -127,7 +127,7 @@ ctrs.forEach(ctr =>{
         ctr.innerText= Math.ceil(count + inc);
         setTimeout(update_count, 1);
     }else{
-        ctr.innerText= target;
+        ctr.innerText= target + "+";
     }
 }
 

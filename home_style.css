@@ -82,7 +82,7 @@ margin: 0;
 }
 .sm-grid-3{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 1rem;
 }
@@ -105,7 +105,7 @@ margin: 0;
     background-position: center;
     width: 80%;
     height: 90%;
-    animation: slide 30s linear infinite;
+    animation: home_abt_slide 30s linear infinite;
     transition: 300ms;
     border-radius: 0px 114px 0px 69px;
 }
@@ -470,6 +470,41 @@ color: #313131;
 
 }
 
+@keyframes home_abt_slide {
+    0% {
+        background-image: url(./images/dce2.jpg);
+    }
+
+    20% {
+        background-image: url(./images/dce2.jpg);
+    }
+
+    25% {
+        background-image: url(./images/dce12.jpg);
+    }
+
+    45% {
+        background-image: url(./images/dce12.jpg);
+    }
+
+    50% {
+        background-image: url(./images/dce13.jpg);
+    }
+
+    70% {
+        background-image: url(./images/dce13.jpg);
+    }
+
+    75% {
+        background-image: url(/images/dce14.jpg);
+    }
+
+    100% {
+        background-image: url(/images/dce14.jpg);
+    }
+
+}
+
 /*----------------------------------------------why choose us section End-------------------------------------------*/
 
 
@@ -765,6 +800,6 @@ color: #313131;
         font-size: 0.9rem;
     }
     .home-title{
-        font-size: 42px;
+        font-size: 40px;
     }
 }
