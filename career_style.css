@@ -98,27 +98,29 @@ html {
 }
 
 .opening_title {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     font-family: 'Poppins', sans-serif;
-    text-decoration: underline;
     color: #fff;
     text-align: center;
     padding-top: 4rem;
+    font-weight: 400;
+}
+.container{
+    margin: 1% 10%;
 }
 
 .opening {
     position: absolute;
-    top: 41%;
+    top: 50%;
     left: 10%;
     width: 80%;
-    height: 30rem;
+    height: fit-content;
     background-color: white;
     border-color: #40A2D5;
     border-style: solid;
     border-width: 2px;
     box-shadow: 7px 4px 73px 0px black;
     margin-bottom: 5rem;
-    overflow-y: scroll;
     overflow-x: hidden;
 }
 
@@ -171,6 +173,8 @@ html {
 .hr {
     margin: 0 10%;
     margin-top: 0.7rem;
+    height: 0.2rem;
+    background-color: rgba(0, 139, 209, 0.5);
 }
 
 .overlay_circle {
@@ -197,7 +201,7 @@ html {
     font-size: 1.5rem;
     font-family: 'Ubuntu', sans-serif;
     color: gray;
-    line-height: 0.7;
+    line-height: 1.4;
 }
 
 .blue {
@@ -477,16 +481,32 @@ input:focus {
 .jb_desc_absolute p{
     text-align: center;
 }
-
-
-
-.ftr {
-    height: 20rem;
-    width: 100%;
+.flex-info-2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
+.info-image{
+    width: 5rem;
+}
+.opening .text{
+    font-size: 1rem;
+    margin: 3%;
+}
+
+
+
+
 @media (max-width:815px) {
     .active_navbtn{
         background-color: #2348ca;
+    }
+    .info-image{
+        width: 4rem;
+    }
+    .form{
+        margin: 0 0;
+        width: 100%;
     }
 }
 @media (max-width:450px) {
@@ -517,7 +537,7 @@ input:focus {
     }
 
     .opening_title {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .form {
         margin: 0;
@@ -526,6 +546,9 @@ input:focus {
     }
     .form1{
         width: 335px;
+    }
+    .info-image{
+        width: 3rem;
     }
     
 
