@@ -235,6 +235,11 @@ nav.open .links {
         flex-direction: column;
         flex-shrink: 0;
       }
+
+      ul
+      {
+        flex-shrink: 0;
+      }
     
       .links a {
         color: var(--light-one);
@@ -266,4 +271,12 @@ nav.open .links {
     .logo{
         width: 150px;
     }
+    .links ul {
+      flex-direction: column;
+      flex-shrink: 0;
+    }
+    ul
+      {
+        flex-shrink: 0;
+      }
 }
