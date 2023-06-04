@@ -35,7 +35,7 @@ nav{
   display: flex;
   flex-direction: column;
   position: fixed;
-  overflow-x: hidden;
+
   width: 100vw;
     z-index: 102;
     top: 0;
